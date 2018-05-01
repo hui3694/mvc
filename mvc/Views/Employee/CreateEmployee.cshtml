@@ -1,0 +1,66 @@
+﻿@using mvc.ViewModeels
+@model CreateEmployeeViewModel
+
+@{
+    Layout = "~/views/shared/MyLayout.cshtml";
+}
+
+@section TitleSection{
+    CrteateEmployee
+    }
+@section HeaderSection{
+    <script type="text/javascript" src="~/Scripts/Validations.js"></script>
+    <script>
+            function ResetForm() {
+                document.getElementById("txtFName").value = "";
+                document.getElementById("txtLName").value = "";
+                document.getElementById("txtSalary").value = "";
+            }
+    </script>
+    }
+@section ContentBody{
+    <form action="/Employee/SaveEmployee" method="post">
+        <table>
+            <tr>
+                <td>First Name:</td>
+                <td>
+                    <input type="text" id="txtFName" name="FirstName" value="@Model.FirstName" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="right">
+                    @Html.ValidationMessage("FirstName")
+                </td>
+            </tr>
+            <tr>
+                <td>Last Name:</td>
+                <td>
+                    <input type="text" id="txtLName" name="LastName" value="@Model.LastName" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="right">
+                    @Html.ValidationMessage("LastName")
+                </td>
+            </tr>
+            <tr>
+                <td>Salary:</td>
+                <td>
+                    <input type="text" id="txtSalary" name="Salary" value="@Model.Salary" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="right">
+                    @Html.ValidationMessage("Salary")
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" name="BtnSubmit" value="Save" onclick="return IsValid();" />
+                    <input type="submit" name="BtnSubmit" value="Cancel" />
+                    <input type="button" name="BtnReset" value="Reset" onclick="ResetForm();" />
+                </td>
+            </tr>
+        </table>
+    </form>
+    }
