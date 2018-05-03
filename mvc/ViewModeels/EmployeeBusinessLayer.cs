@@ -23,6 +23,13 @@ namespace mvc.Models
             return e;
         }
 
+        public void UploadEmployees(List<Employee> employees)
+        {
+            SalesERPDAL salesDal = new SalesERPDAL();
+            salesDal.Employees.AddRange(employees);
+            salesDal.SaveChanges();
+        }
+
         public bool IsValidUser(UserDetails u)
         {
             if(u.UserName=="Admin" && u.Password == "Admin")

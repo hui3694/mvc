@@ -1,4 +1,9 @@
-﻿<!DOCTYPE html>
+﻿@model HandleErrorInfo
+    @{ 
+        Layout = null;
+    }
+
+<!DOCTYPE html>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -9,6 +14,9 @@
     <hgroup>
         <h1>错误。</h1>
         <h2>处理你的请求时出错。</h2>
+        出错信息：@Model.Exception.Message<br />
+        控制器：@Model.ControllerName<br />
+        方法：@Model.ActionName
     </hgroup>
 </body>
 </html>

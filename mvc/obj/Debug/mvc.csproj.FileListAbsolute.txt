@@ -125,3 +125,4 @@ C:\Users\hui\Desktop\mvc\mvc\mvc\bin\zh-Hans\System.Web.WebPages.Deployment.reso
 C:\Users\hui\Desktop\mvc\mvc\mvc\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
 C:\Users\hui\Desktop\mvc\mvc\mvc\obj\Debug\mvc.dll
 C:\Users\hui\Desktop\mvc\mvc\mvc\obj\Debug\mvc.pdb
+C:\Users\hui\Desktop\mvc\mvc\mvc\obj\Debug\mvc.csprojResolveAssemblyReference.cache
