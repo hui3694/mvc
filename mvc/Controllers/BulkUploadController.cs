@@ -4,11 +4,12 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using mvc.Filters;
-using mvc.ViewModeels;
-using mvc.Models;
+using ViewModeels;
+using BusinessEntities;
 using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
+using BusinessLayer;
 
 namespace mvc.Controllers
 {

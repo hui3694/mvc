@@ -5,8 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
-using System.Data.Entity;
-using mvc.DataAccessLayer;
+using BusinessLayer;
 
 namespace mvc
 {
@@ -14,7 +13,9 @@ namespace mvc
     {
         protected void Application_Start()
         {
-            Database.SetInitializer(new DropCreateDatabaseIfModelChanges<SalesERPDAL>());
+            //Database.SetInitializer(new DropCreateDatabaseIfModelChanges<SalesERPDAL>());
+            BundleConfig.RegisterBundles(BundleTable.Bundles);
+            BusinessSettings.SetBusiness();
 
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);

@@ -1,0 +1,12 @@
+F:\sudent\mvc\mvc\DataAccessLayer\obj\Debug\DataAccessLayer.csprojResolveAssemblyReference.cache
+F:\sudent\mvc\mvc\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+F:\sudent\mvc\mvc\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+F:\sudent\mvc\mvc\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+F:\sudent\mvc\mvc\DataAccessLayer\bin\Debug\BusinessEntities.dll
+F:\sudent\mvc\mvc\DataAccessLayer\bin\Debug\EntityFramework.dll
+F:\sudent\mvc\mvc\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+F:\sudent\mvc\mvc\DataAccessLayer\bin\Debug\BusinessEntities.pdb
+F:\sudent\mvc\mvc\DataAccessLayer\bin\Debug\EntityFramework.xml
+F:\sudent\mvc\mvc\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+F:\sudent\mvc\mvc\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+F:\sudent\mvc\mvc\DataAccessLayer\obj\Debug\DataAccessLayer.pdb

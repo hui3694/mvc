@@ -1,0 +1,14 @@
+F:\sudent\mvc\mvc\BusinessLayer\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache
+F:\sudent\mvc\mvc\BusinessLayer\bin\Debug\BusinessLayer.dll.config
+F:\sudent\mvc\mvc\BusinessLayer\bin\Debug\BusinessLayer.dll
+F:\sudent\mvc\mvc\BusinessLayer\bin\Debug\BusinessLayer.pdb
+F:\sudent\mvc\mvc\BusinessLayer\bin\Debug\BusinessEntities.dll
+F:\sudent\mvc\mvc\BusinessLayer\bin\Debug\DataAccessLayer.dll
+F:\sudent\mvc\mvc\BusinessLayer\bin\Debug\EntityFramework.dll
+F:\sudent\mvc\mvc\BusinessLayer\bin\Debug\EntityFramework.SqlServer.dll
+F:\sudent\mvc\mvc\BusinessLayer\bin\Debug\BusinessEntities.pdb
+F:\sudent\mvc\mvc\BusinessLayer\bin\Debug\DataAccessLayer.pdb
+F:\sudent\mvc\mvc\BusinessLayer\bin\Debug\EntityFramework.xml
+F:\sudent\mvc\mvc\BusinessLayer\bin\Debug\EntityFramework.SqlServer.xml
+F:\sudent\mvc\mvc\BusinessLayer\obj\Debug\BusinessLayer.dll
+F:\sudent\mvc\mvc\BusinessLayer\obj\Debug\BusinessLayer.pdb

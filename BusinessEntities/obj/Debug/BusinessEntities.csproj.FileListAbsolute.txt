@@ -1,0 +1,5 @@
+F:\sudent\mvc\mvc\BusinessEntities\obj\Debug\BusinessEntities.csprojResolveAssemblyReference.cache
+F:\sudent\mvc\mvc\BusinessEntities\bin\Debug\BusinessEntities.dll
+F:\sudent\mvc\mvc\BusinessEntities\bin\Debug\BusinessEntities.pdb
+F:\sudent\mvc\mvc\BusinessEntities\obj\Debug\BusinessEntities.dll
+F:\sudent\mvc\mvc\BusinessEntities\obj\Debug\BusinessEntities.pdb

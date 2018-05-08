@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using mvc.Models;
+using BusinessEntities;
 using System.Web.Security;
+using BusinessLayer;
 
 namespace mvc.Controllers
 {
