@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using BusinessEntities;
-using ViewModeels;
+using mvc.ViewModels;
 using System.Web.Security;
 using mvc.Filters;
 using BusinessLayer;
@@ -23,7 +23,7 @@ namespace mvc.Controllers
         [HeaderFooterFilter]
         public ActionResult AddNew()
         {
-            CreateEmployeeViewModel create = new ViewModeels.CreateEmployeeViewModel();
+            CreateEmployeeViewModel create = new ViewModels.CreateEmployeeViewModel();
             return View("CreateEmployee",create);
         }
 

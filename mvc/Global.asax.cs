@@ -14,13 +14,13 @@ namespace mvc
         protected void Application_Start()
         {
             //Database.SetInitializer(new DropCreateDatabaseIfModelChanges<SalesERPDAL>());
-            BundleConfig.RegisterBundles(BundleTable.Bundles);
-            BusinessSettings.SetBusiness();
+            
 
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+            BusinessSettings.SetBusiness();
         }
 
         

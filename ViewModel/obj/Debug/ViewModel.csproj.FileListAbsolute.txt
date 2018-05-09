@@ -3,3 +3,5 @@ F:\sudent\mvc\mvc\ViewModel\bin\Debug\ViewModel.dll
 F:\sudent\mvc\mvc\ViewModel\bin\Debug\ViewModel.pdb
 F:\sudent\mvc\mvc\ViewModel\obj\Debug\ViewModel.dll
 F:\sudent\mvc\mvc\ViewModel\obj\Debug\ViewModel.pdb
+F:\sudent\mvc\mvc\ViewModel\bin\Debug\BusinessEntities.dll
+F:\sudent\mvc\mvc\ViewModel\bin\Debug\BusinessEntities.pdb
