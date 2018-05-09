@@ -80,7 +80,6 @@ C:\Users\hui\Desktop\mvc\mvc\mvc\bin\mvc.dll
 C:\Users\hui\Desktop\mvc\mvc\mvc\bin\mvc.pdb
 C:\Users\hui\Desktop\mvc\mvc\mvc\bin\Antlr3.Runtime.dll
 C:\Users\hui\Desktop\mvc\mvc\mvc\bin\EntityFramework.dll
-C:\Users\hui\Desktop\mvc\mvc\mvc\bin\EntityFramework.SqlServer.dll
 C:\Users\hui\Desktop\mvc\mvc\mvc\bin\Microsoft.AI.Agent.Intercept.dll
 C:\Users\hui\Desktop\mvc\mvc\mvc\bin\Microsoft.AI.DependencyCollector.dll
 C:\Users\hui\Desktop\mvc\mvc\mvc\bin\Microsoft.AI.PerfCounterCollector.dll
@@ -100,7 +99,6 @@ C:\Users\hui\Desktop\mvc\mvc\mvc\bin\System.Web.WebPages.dll
 C:\Users\hui\Desktop\mvc\mvc\mvc\bin\System.Web.WebPages.Razor.dll
 C:\Users\hui\Desktop\mvc\mvc\mvc\bin\WebGrease.dll
 C:\Users\hui\Desktop\mvc\mvc\mvc\bin\EntityFramework.xml
-C:\Users\hui\Desktop\mvc\mvc\mvc\bin\EntityFramework.SqlServer.xml
 C:\Users\hui\Desktop\mvc\mvc\mvc\bin\Microsoft.AI.DependencyCollector.xml
 C:\Users\hui\Desktop\mvc\mvc\mvc\bin\Microsoft.AI.ServerTelemetryChannel.xml
 C:\Users\hui\Desktop\mvc\mvc\mvc\bin\Microsoft.AI.Web.xml
@@ -196,3 +194,11 @@ F:\sudent\mvc\mvc\mvc\bin\zh-Hans\System.Web.Razor.resources.dll
 F:\sudent\mvc\mvc\mvc\bin\zh-Hans\System.Web.WebPages.resources.dll
 F:\sudent\mvc\mvc\mvc\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
 F:\sudent\mvc\mvc\mvc\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+C:\Users\hui\Desktop\mvc\mvc\mvc\bin\BusinessEntities.dll
+C:\Users\hui\Desktop\mvc\mvc\mvc\bin\BusinessLayer.dll
+C:\Users\hui\Desktop\mvc\mvc\mvc\bin\ViewModel.dll
+C:\Users\hui\Desktop\mvc\mvc\mvc\bin\DataAccessLayer.dll
+C:\Users\hui\Desktop\mvc\mvc\mvc\bin\BusinessEntities.pdb
+C:\Users\hui\Desktop\mvc\mvc\mvc\bin\BusinessLayer.pdb
+C:\Users\hui\Desktop\mvc\mvc\mvc\bin\ViewModel.pdb
+C:\Users\hui\Desktop\mvc\mvc\mvc\bin\DataAccessLayer.pdb

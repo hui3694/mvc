@@ -5,6 +5,8 @@ using System.Web;
 using System.Web.Mvc;
 using mvc.ViewModels.SPA;
 using OldViewModel = mvc.ViewModels;
+using BusinessLayer;
+using BusinessEntities;
 
 namespace mvc.Areas.SPA.Controllers
 {
@@ -19,6 +21,44 @@ namespace mvc.Areas.SPA.Controllers
             v.FooterData.CompanyName = "StepByStepSchools";
             v.FooterData.Year = DateTime.Now.Year.ToString();
             return View("Index", v);
+        }
+
+        public ActionResult EmployeeList()
+        {
+            EmployeeListViewModel employeeListViewModel = new EmployeeListViewModel();
+            EmployeeBusinessLayer empBal = new EmployeeBusinessLayer();
+            List<Employee> employees = empBal.GetEmployees();
+
+            List<EmployeeViewModel> empViewModels = new List<EmployeeViewModel>();
+
+            foreach(Employee emp in employees)
+            {
+                EmployeeViewModel empViewModel = new EmployeeViewModel();
+                empViewModel.EmployeeName = emp.FirstName + " " + emp.LastName;
+                empViewModel.Salary = emp.Salary.Value.ToString("C");
+                if (emp.Salary > 15000)
+                {
+                    empViewModel.SalaryColor = "yellow";
+                }
+                else
+                {
+                    empViewModel.SalaryColor = "green";
+                }
+                empViewModels.Add(empViewModel);
+            }
+            employeeListViewModel.Employees = empViewModels;
+            return View("EmployeeList", employeeListViewModel);
+        }
+
+        public ActionResult GetAddNewLink() {
+            if (Convert.ToBoolean(Session["IsAdmin"]))
+            {
+                return PartialView("AddNewLink");
+            }
+            else
+            {
+                return new EmptyResult();
+            }
         }
     }
 }

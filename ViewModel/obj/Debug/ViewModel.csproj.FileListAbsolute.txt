@@ -5,3 +5,10 @@ F:\sudent\mvc\mvc\ViewModel\obj\Debug\ViewModel.dll
 F:\sudent\mvc\mvc\ViewModel\obj\Debug\ViewModel.pdb
 F:\sudent\mvc\mvc\ViewModel\bin\Debug\BusinessEntities.dll
 F:\sudent\mvc\mvc\ViewModel\bin\Debug\BusinessEntities.pdb
+C:\Users\hui\Desktop\mvc\mvc\ViewModel\bin\Debug\ViewModel.dll
+C:\Users\hui\Desktop\mvc\mvc\ViewModel\bin\Debug\ViewModel.pdb
+C:\Users\hui\Desktop\mvc\mvc\ViewModel\bin\Debug\BusinessEntities.dll
+C:\Users\hui\Desktop\mvc\mvc\ViewModel\bin\Debug\BusinessEntities.pdb
+C:\Users\hui\Desktop\mvc\mvc\ViewModel\obj\Debug\ViewModel.csprojResolveAssemblyReference.cache
+C:\Users\hui\Desktop\mvc\mvc\ViewModel\obj\Debug\ViewModel.dll
+C:\Users\hui\Desktop\mvc\mvc\ViewModel\obj\Debug\ViewModel.pdb

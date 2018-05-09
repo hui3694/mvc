@@ -13,9 +13,9 @@
         Hello,@Model.UserName
         <a href="/Authentication/logout">Logout</a>
     </div>
-
+    <hr />
     <div id="DivOption">
-
+        @Html.Action("EmployeeList", "Main")
     </div>
 
     @Html.Partial("Footer",Model.FooterData)

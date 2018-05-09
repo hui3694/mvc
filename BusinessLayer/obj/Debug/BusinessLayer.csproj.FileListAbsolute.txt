@@ -12,3 +12,17 @@ F:\sudent\mvc\mvc\BusinessLayer\bin\Debug\EntityFramework.xml
 F:\sudent\mvc\mvc\BusinessLayer\bin\Debug\EntityFramework.SqlServer.xml
 F:\sudent\mvc\mvc\BusinessLayer\obj\Debug\BusinessLayer.dll
 F:\sudent\mvc\mvc\BusinessLayer\obj\Debug\BusinessLayer.pdb
+C:\Users\hui\Desktop\mvc\mvc\BusinessLayer\bin\Debug\BusinessLayer.dll.config
+C:\Users\hui\Desktop\mvc\mvc\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Users\hui\Desktop\mvc\mvc\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\hui\Desktop\mvc\mvc\BusinessLayer\bin\Debug\BusinessEntities.dll
+C:\Users\hui\Desktop\mvc\mvc\BusinessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\hui\Desktop\mvc\mvc\BusinessLayer\bin\Debug\EntityFramework.dll
+C:\Users\hui\Desktop\mvc\mvc\BusinessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\hui\Desktop\mvc\mvc\BusinessLayer\bin\Debug\BusinessEntities.pdb
+C:\Users\hui\Desktop\mvc\mvc\BusinessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\hui\Desktop\mvc\mvc\BusinessLayer\bin\Debug\EntityFramework.xml
+C:\Users\hui\Desktop\mvc\mvc\BusinessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\hui\Desktop\mvc\mvc\BusinessLayer\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache
+C:\Users\hui\Desktop\mvc\mvc\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\hui\Desktop\mvc\mvc\BusinessLayer\obj\Debug\BusinessLayer.pdb
