@@ -7,6 +7,7 @@ using mvc.ViewModels.SPA;
 using OldViewModel = mvc.ViewModels;
 using BusinessLayer;
 using BusinessEntities;
+using mvc.Filters;
 
 namespace mvc.Areas.SPA.Controllers
 {
@@ -59,6 +60,13 @@ namespace mvc.Areas.SPA.Controllers
             {
                 return new EmptyResult();
             }
+        }
+
+        [AdminFilter]
+        public ActionResult AddNew()
+        {
+            CreateEmployeeViewModel v = new CreateEmployeeViewModel();
+            return PartialView("CreateEmployee", v);
         }
     }
 }
