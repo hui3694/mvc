@@ -1,5 +1,5 @@
 ﻿function IsFirstNameEmpty() {
-    if (document.getElementById("txtFName").value == "") {
+    if (document.getElementById("TxtFName").value == "") {
         return "First Name should not be empty";
     } else {
         return "";
@@ -7,7 +7,7 @@
 }
 
 function IsFirstNameInValid() {
-    if (document.getElementById("txtFName").value.indexOf("@") != -1) {
+    if (document.getElementById("TxtFName").value.indexOf("@") != -1) {
         return "First Name should contain @";
     } else {
         return "";
@@ -15,7 +15,7 @@ function IsFirstNameInValid() {
 }
 
 function IsLastNameInValid() {
-    if (document.getElementById("txtLName").value.length >= 5) {
+    if (document.getElementById("TxtLName").value.length >= 5) {
         return "Last Name should not contain more than 5 character";
     } else {
         return "";
@@ -23,7 +23,7 @@ function IsLastNameInValid() {
 }
 
 function IsSalaryEmpty() {
-    if (document.getElementById("txtSalary").value == "") {
+    if (document.getElementById("TxtSalary").value == "") {
         return "Salary should not be empty";
     } else {
         return "";
@@ -31,7 +31,7 @@ function IsSalaryEmpty() {
 }
 
 function IsSalaryInValid() {
-    if (isNaN(document.getElementById("txtSalary").value)) {
+    if (isNaN(document.getElementById("TxtSalary").value)) {
         return "Enter valid salary";
     } else {
         return "";

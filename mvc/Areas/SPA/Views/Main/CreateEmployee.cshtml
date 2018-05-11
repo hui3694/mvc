@@ -1,6 +1,7 @@
 ﻿@using mvc.ViewModels.SPA
 @model CreateEmployeeViewModel
 
+<script src="~/Scripts/Validations.js"></script>
 <script>
     function ResetForm() {
         document.getElementById("TxtFName").value = "";
@@ -9,6 +10,30 @@
     }
     function CancelSave() {
         $("#DivCreateEmployee").dialog('close');
+    }
+    function SaveEmployee() {
+        if (IsValid()) {
+            var e = {
+                FirstName: $("#TxtFName").val(),
+                LastName: $("#TxtLName").val(),
+                Salary: $("#TxtSalary").val()
+            };
+            $.post("/spa/main/saveEmployee", e).then(
+                function (r) {
+                    var newTr = $("<tr></tr>");
+                    var nameTD = $("<td></td>");
+                    var salaryTD = $("<td></td>");
+
+                    nameTD.text(r.EmployeeName);
+                    salaryTD.text(r.Salary);
+                    salaryTD.css("background-color", r.SalaryColor);
+                    newTr.append(nameTD);
+                    newTr.append(salaryTD);
+                    $("#EmployeeTable").append(newTr);
+                    $("#DivCreateEmployee").dialog("close");
+                }
+            );
+        }
     }
 
 </script>

@@ -68,5 +68,25 @@ namespace mvc.Areas.SPA.Controllers
             CreateEmployeeViewModel v = new CreateEmployeeViewModel();
             return PartialView("CreateEmployee", v);
         }
+
+        [AdminFilter]
+        public ActionResult SaveEmployee(Employee emp)
+        {
+            EmployeeBusinessLayer empBal = new EmployeeBusinessLayer();
+            empBal.SaveEmployee(emp);
+
+            EmployeeViewModel empViewModel = new EmployeeViewModel();
+            empViewModel.EmployeeName = emp.FirstName + " " + emp.LastName;
+            empViewModel.Salary = emp.Salary.Value.ToString("C");
+            if (emp.Salary > 15000)
+            {
+                empViewModel.SalaryColor = "yellow";
+            }else
+            {
+                empViewModel.SalaryColor = "green";
+            }
+            return Json(empViewModel);
+
+        }
     }
 }
